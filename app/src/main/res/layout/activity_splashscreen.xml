@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <FrameLayout
+        android:id="@+id/wait_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@+id/imagebg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/image_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_intro" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/app_ver"
+        style="@style/TextViewAppearance.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="1.0.0"
+        android:textSize="@dimen/text"
+        android:textColor="@color/Tex"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_above="@id/app_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="@dimen/texttitle"
+        android:textColor="@color/Tex"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

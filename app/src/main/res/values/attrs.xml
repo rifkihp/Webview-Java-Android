@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface" format="enum">
+            <enum name="robotoBlack" value="0" />
+            <enum name="robotoBlackItalic" value="1" />
+            <enum name="robotoBold" value="2" />
+            <enum name="robotoBoldItalic" value="3" />
+            <enum name="robotoBoldCondensed" value="4" />
+            <enum name="robotoBoldCondensedItalic" value="5" />
+            <enum name="robotoCondensed" value="6" />
+            <enum name="robotoCondensedItalic" value="7" />
+            <enum name="robotoItalic" value="8" />
+            <enum name="robotoLight" value="9" />
+            <enum name="robotoLightItalic" value="10" />
+            <enum name="robotoMedium" value="11" />
+            <enum name="robotoMediumItalic" value="12" />
+            <enum name="robotoRegular" value="13" />
+            <enum name="robotoThin" value="14" />
+            <enum name="robotoThinItalic" value="15" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RangeBar">
+        <attr name="tickStart" format="float" />
+        <attr name="tickEnd" format="float" />
+        <attr name="tickInterval" format="float" />
+        <attr name="tickHeight" format="dimension" />
+        <attr name="tickColor" format="color" />
+        <attr name="barWeight" format="dimension" />
+        <attr name="rangeBarColor" format="reference|color" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="pinColor" format="reference|color" />
+        <attr name="selectorSize" format="dimension" />
+        <attr name="pinPadding" format="dimension" />
+        <attr name="pinMinFont" format="dimension" />
+        <attr name="pinMaxFont" format="dimension" />
+        <attr name="rangeBarPaddingBottom" format="dimension" />
+        <attr name="selectorColor" format="reference|color" />
+        <attr name="rangeBar" format="boolean" />
+        <attr name="temporaryPins" format="boolean" />
+        <attr name="connectingLineWeight" format="dimension" />
+        <attr name="connectingLineColor" format="reference|color" />
+        <attr name="pinRadius" format="dimension" />
+    </declare-styleable>
+</resources>
+
